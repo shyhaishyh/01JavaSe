@@ -1,5 +1,6 @@
 package cn.wd.jiekou;
 
+//½Ó¿ÚÀà
 public interface UserDao{
 	
 	User user = new User();

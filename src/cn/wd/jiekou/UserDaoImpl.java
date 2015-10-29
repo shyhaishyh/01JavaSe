@@ -1,5 +1,6 @@
 package cn.wd.jiekou;
 
+// µœ÷¿‡
 public class UserDaoImpl implements UserDao {
 
 	@Override

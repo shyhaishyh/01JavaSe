@@ -4,8 +4,7 @@ public class Penguin extends Pet {
 
 	@Override
 	public void cure() {
-		System.out.println("Æó¶ì£º³ÔÒ©£¬ÁÆÑø£¡");
-		
+		System.out.println("Æó¶ì£º³ÔÒ©£¬ÁÆÑø£¡");	
 	}
 
 	public void swimming() {

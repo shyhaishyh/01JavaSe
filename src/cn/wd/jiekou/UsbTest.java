@@ -8,6 +8,7 @@ public class UsbTest {
 		UsbImpl usbI = new UsbImpl();
 		
 		usb.service();
+		usbI.service();
 		usbI.service(usb);
 
 

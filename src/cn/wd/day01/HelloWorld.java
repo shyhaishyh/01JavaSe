@@ -1,4 +1,4 @@
-package cn.wd;
+package cn.wd.day01;
 
 public class HelloWorld {
 

@@ -9,8 +9,7 @@ public class CarTest {
 
 		Bus bus = new Bus(20);
 	    bus.print();
-	    
-	    
+	    	    
 	}
 
 }

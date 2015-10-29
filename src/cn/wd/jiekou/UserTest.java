@@ -2,11 +2,9 @@ package cn.wd.jiekou;
 
 import java.util.Scanner;
 
+//测试类
 public class UserTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -15,6 +13,5 @@ public class UserTest {
 		System.out.print("请输入要查找的用户名：");
 		ud.findUser(sc.next());
 		
-
 	}
 }

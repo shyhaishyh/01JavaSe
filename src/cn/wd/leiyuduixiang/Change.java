@@ -17,18 +17,19 @@ public class Change {
 		}
 	}
 	
-	public void again(){
+	public String again(){
 		System.out.print("\n请输入新密码：");
 		String npwd = sc.next();
 		System.out.print("请再次输入新密码：");
 		String apwd = sc.next();
 		if(npwd.equals(apwd)){
-			System.out.print("修改密码成功，您的新密码为：" +npwd);
+//			System.out.println("修改密码成功，您的新密码为：" +npwd);
 			pwd = npwd;
+			return pwd;
 		}else{
 			System.out.print("两次输入的密码不一致，请重新输入！");
-			again();
-		}
+			again();	
+		}	
+		return null;
 	}
-
 }

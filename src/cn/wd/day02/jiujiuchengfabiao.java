@@ -13,8 +13,6 @@ public class jiujiuchengfabiao {
 				System.out.print(j + "*" + i + "=" + i*j + "\t");
 			}
 			System.out.println();
-		}
-		
+		}	
 	}
-
 }

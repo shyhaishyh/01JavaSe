@@ -5,6 +5,7 @@ public class ScoreCalc {
 	int sjava;
 	int sc;
 	int sdb;
+	
 	int sum;
 	int avg;
 	

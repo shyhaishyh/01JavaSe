@@ -13,5 +13,6 @@ public class Test {
 	
 		master.eat(pet);
 		master.play(pet);
+		master.cure(pet);
 	}
 }

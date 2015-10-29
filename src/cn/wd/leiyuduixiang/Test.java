@@ -38,5 +38,6 @@ public class Test {
 		System.out.print("请输入密码：");
 		ch.pwd = sc.next();
 		ch.show();
+		System.out.println("您现在的密码为：" + ch.pwd);
 	}
 }

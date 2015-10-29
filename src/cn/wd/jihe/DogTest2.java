@@ -11,7 +11,7 @@ public class DogTest2 {
 		Dog dog3 = new Dog("木木","阿拉斯加");
 		Dog dog4 = new Dog("美美","约克夏");
 		
-		LinkedList<Dog> list = new LinkedList<Dog>();
+		LinkedList<Dog> list = new LinkedList<Dog>();//LinkedList采用链表存储方式。插入、删除元素时效率比较高
 		list.add(dog1);
 		list.add(dog2);
 		list.add(dog3);

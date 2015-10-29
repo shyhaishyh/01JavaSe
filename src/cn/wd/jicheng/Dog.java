@@ -7,7 +7,6 @@ public class Dog extends Pet {
 	public String getStrain() {
 		return strain;
 	}
-
 	public void setStrain(String strain) {
 		this.strain = strain;
 	}
@@ -21,6 +20,7 @@ public class Dog extends Pet {
 		this.strain = strain;
 	}
 
+	//方法重写
 	@Override
 	public void print() {
 		System.out.println("我的名字叫" + super.getName() +

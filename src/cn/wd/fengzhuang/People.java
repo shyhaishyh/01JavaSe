@@ -2,6 +2,7 @@ package cn.wd.fengzhuang;
 
 public class People {
 	
+	//加了private，对People进行封装
 	private String name;
 	private char sex;
 	private int age;

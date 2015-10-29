@@ -1,5 +1,6 @@
 package cn.wd.jiekou;
 
+// Ù–‘¿‡
 public class User {
 	
 	String name = "admin";

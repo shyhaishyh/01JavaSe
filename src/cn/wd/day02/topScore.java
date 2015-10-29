@@ -18,7 +18,7 @@ public class topScore {
 			score[i] = sc.nextInt();
 		}
 		Arrays.sort(score);
-		int top = score[4];
+		int top = score[score.length - 1];
 		System.out.println("本次成绩最高分是：" + top);
 		
 	}

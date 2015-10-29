@@ -1,6 +1,5 @@
 package cn.wd.jihe;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +12,7 @@ public class DogTest {
 		Dog dog3 = new Dog("木木","阿拉斯加");
 		Dog dog4 = new Dog("美美","约克夏");
 		
-		List<Dog> list = new ArrayList<Dog>();
+		List<Dog> list = new ArrayList<Dog>();//一维数组型  ArrayList实现了长度可变的数组，在内存中分配连续的空间。遍历元素和随机访问元素的效率比较高
 		list.add(dog1);
 		list.add(dog2);
 		list.add(dog3);

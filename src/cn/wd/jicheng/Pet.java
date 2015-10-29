@@ -1,5 +1,6 @@
 package cn.wd.jicheng;
 
+//abstract 表抽象类
 public abstract class Pet {
 	
 	private String name;
@@ -34,6 +35,6 @@ public abstract class Pet {
 		this.health = health;
 		this.love = love;
 	}
-	
+	//抽象方法，没有方法体，方法需在实现类（Dog类或Penguin类）里实现。
 	public abstract void print();
 }
